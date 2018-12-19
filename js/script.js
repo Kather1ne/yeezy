@@ -24,9 +24,9 @@ var slices = document.querySelectorAll('.slice');
 if (window.innerWidth > 1024) {
 
 // размеры главной картинки
-item.forEach(function(item){
-	item.style.backgroundSize = Math.ceil((browserWidth*0.9 + 20)) + 'px auto'; 
-});
+item[0].style.backgroundSize = Math.ceil((browserWidth*1.2)) + 'px auto'; 
+item[1].style.backgroundSize = Math.ceil((browserWidth*0.9 + 20)) + 'px auto'; 
+
 
 var tlShift = new TimelineLite();
 tlShift.stop();

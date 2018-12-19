@@ -23,11 +23,11 @@ main {
 }
 
 .bg .item {
-	width: 86%;
+	width: 100%;
 }
 
 .bg .more {
-	width: 14%;
+	width: 0%;
 }
 
 .bg .item__text {
